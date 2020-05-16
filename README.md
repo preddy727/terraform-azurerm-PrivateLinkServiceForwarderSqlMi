@@ -1,4 +1,4 @@
-# Deploys a group of Cloud-Init enabled Virtual Machines in a Scale Set
+# Deploys a Private Link Service, Load Balancer, Cloud-Init enabled Virtual Machines in a Scale Set with port forwarding and SQL MI
 [![Build Status](https://travis-ci.org/Azure/terraform-azurerm-vmss-cloudinit.svg?branch=master)](https://travis-ci.org/Azure/terraform-azurerm-vmss-cloudinit)
 
 This terraform module uses an existing subnet. Disable the subnet private endpoint policies using the Azure CLI command below prior to running the terraform apply.
