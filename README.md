@@ -115,7 +115,7 @@ resource "azurerm_private_link_service" "pls" {
 
 ## Authors
 
-Originally created by [David Tesar](http://github.com/dtzar)
+Originally created by [David Tesar](http://github.com/dtzar), Forked by [Prithvi Reddy](http://githbub.com/preddy727) to add privatelink and forwarding code. 
 
 ## License
 
