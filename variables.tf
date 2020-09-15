@@ -1,16 +1,16 @@
 variable "pls_forwarder_resource_group_name" {
   description = "The name of the resource group where the private link service forwarder"
-  default     = "sqlmi-jdierk-sqlmiprivatelinkservice-04-rg"
+  default     = "sqlmi-prreddy-sqlmiprivatelinkservice-04-rg"
 }
 
 variable "pls_vnet_resource_group_name" {
   description = "The name of the resource group where the private link vnet is located"
-  default     = "sqlmi-jdierk-sqlmitestenvironment-02-rg"
+  default     = "sqlmi-prreddy-sqlmitestenvironment-02-rg"
 }
 
 variable "sql_mi_fqdn" {
   description = "The FQDN of the backend SQL MI host"
-  default     = "attsqlmi00002.84e103b4b787.database.windows.net"
+  default     = "sqlmi00002.84e103b4b787.database.windows.net"
 }
 
 variable "proxy_subnet_name" {
@@ -25,7 +25,7 @@ variable "pls_subnet_name" {
 
 variable "virtual_network_name" {
   description = "The virtual network name which contains the proxy and Service Link subnets"
-  default     = "att-pedemo-workload-vnet"
+  default     = "pedemo-workload-vnet"
 }
 
 variable "location" {
